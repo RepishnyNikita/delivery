@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="./script/index.js" defer></script>
 
     <title>Delivery Food</title>
 </head>
@@ -25,7 +27,7 @@
 
                     <div class="header-controls">
                         <button class="btn btn-primary"><img src="./img/icon/user.svg" alt="user">Войти</button>
-                        <button class="btn btn-outline"><img src="./img/icon/cart.svg" alt="cart">Корзина</button>
+                        <button id="cart-button" class="btn btn-outline"><img src="./img/icon/cart.svg" alt="cart">Корзина</button>
                     </div>
 
                 </div>
@@ -37,7 +39,7 @@
             <section class="products">
                 <div class="container">
 
-                    <div class="products-wrapper">
+                    <div id="goods-container" class="products-wrapper">
 
                         <a href="./index.html" class="product-card">
                             <div class="product-card__img">
@@ -205,7 +207,7 @@
            
         </main>
 
-        <div class="cart-momal__overlay">
+        <div class="cart-modal__overlay">
             <div class="cart-modal">
 
                 <div class="cart-modal__header">

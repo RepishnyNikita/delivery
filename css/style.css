@@ -96,7 +96,7 @@ main{
 
 .banner-item {
     padding: 68px;
-    background-image: url(./img/banner.png);
+    background-image: url(./../img/banner.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center right;
@@ -343,7 +343,7 @@ main{
 }
 
 
-.cart-momal__overlay {
+.cart-modal__overlay {
     display: none;
     position: fixed;
     top: 0;
@@ -356,7 +356,7 @@ main{
     justify-content: center;
 }
 
-.cart-momal__overlay.open{
+.cart-modal__overlay.open{
     display: flex;
 }
 
